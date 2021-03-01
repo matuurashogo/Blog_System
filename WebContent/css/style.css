@@ -1,0 +1,250 @@
+@CHARSET "UTF-8";
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    color: #333;
+    font-size: 1.2rem;
+    font-family: "Hiragino Kaku Gothic Pron",Meiryo,sans-serif;
+}
+/* header */
+.header {
+    width: 100%;
+    background-color: #08d9d6;
+}
+.headerflex {
+    display: flex;
+}
+.headerA {
+
+    height: 40px;
+    margin: 0 10px;
+    padding: 10px;
+    border: 1px solid balck;
+
+}
+/* form */
+input {
+    border: 1px solid black;
+    width: 300px;
+    padding: 10px;
+    margin: 0 0 20px;
+    color: #252a34;
+    font-family:Arial, sans-serif;
+}
+button {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #000000;
+    overflow: hidden;
+    text-align: center;
+    width: 170px;
+    height: 45px;
+    line-height: 45px;
+}
+h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.content {
+    width: 90%;
+    margin-left: 10%;
+
+}
+textarea {
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+}
+label {
+    font-size: 15px;
+    display: block;
+
+}
+.form_name {
+    font-size: 20px;
+}
+.formflex {
+    display: flex;
+}
+select {
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 5px;
+}
+/* TopPage */
+
+
+.wrapper {
+    width: 970px;
+    margin: 30px auto 40px;
+}
+.main{
+    display: block;
+    float: left;
+    width: 660px;
+}
+
+.sidemenu {
+    float: right;
+    width: 275px;
+}
+.footer {
+    width: 100%;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.logo {
+    width: 225px;
+    height: 56px;
+    margin: 0 auto;
+    font-size: 3rem;
+    text-align: center;
+    padding: 10px 0;
+
+}
+.logo a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.heading {
+    padding: 10px 12px;
+    letter-spacing: 1px;
+    font-size: 1.6rem;
+    border: 1px solid black;
+}
+
+.TopList {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;q22
+}
+.TopAction {
+    display: inline-block;
+    width: 25%;
+    height: 30px;
+
+}
+.TopAction a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #aaa;
+}
+.scroll-items {
+    font-size: 15px;
+    padding: 5px 10px;
+    border: 1px solid black;
+
+}
+.scroll-items a {
+    display: flex;
+}
+.date {
+    width: 25%;
+}
+.title {
+    width: 50%;
+    over-flow: hidden;
+}
+.author {
+    width: 25%;
+
+}
+.scroll-items span {
+    background-color: #f9f3f3;
+
+}
+/* table */
+table, tr, th, td {
+    border: 1px solid #cccccc;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+th {
+    width: 26%;
+    padding: 10px 2%;
+}
+
+td {
+    width: 66%;
+    padding: 10px 2%;
+}
+/* <p><a> */
+.goodbtn {
+    font-size: 15px;
+    margin: 5px 0;
+    border: 1px solid #cccccc;
+    display: inline-block;
+    padding: 10px;
+}
+#flush_success {
+    width: 100%;
+    padding-top: 28px;
+    padding-left: 2%;
+    padding-bottom: 28px;
+    margin-bottom: 15px;
+    color: #155724;
+    background-color: #d4edda;
+}
+#flush_error {
+    width: 100%;
+    padding-top: 28px;
+    padding-left: 2%;
+    padding-bottom: 28px;
+    margin-bottom: 15px;
+    color: #721c24;
+    background-color: #f8d7da;
+}
+
+/* Ranking */
+.Popular {
+    width: 100%;
+    border: 1px solid #cccccc;
+    margin-bottom: 30px;
+}
+.Popular img {
+    width: 100%;
+    height: 100px;
+
+}
+.sideP {
+    font-size: 15px;
+    margin: 3px 0;
+}
+/* footer */
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #ff2e63;
+    position:relative;
+}
+.copyright {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
+    letter-spacing: 1px;
+}
+
+
+
+
